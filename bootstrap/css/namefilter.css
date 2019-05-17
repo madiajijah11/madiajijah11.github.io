@@ -4,7 +4,7 @@
   --black: #000;
   --white: #fff;
 }
-  
+
 html {
   background: var(--white);
 }
@@ -18,10 +18,9 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Montserrat', Arial, serif;
+  font-family: "Montserrat", Arial, serif;
   filter: var(--filter);
 }
-
 
 .hero {
   height: 100%;
@@ -33,7 +32,7 @@ body {
   text-align: center;
   font-size: 20vmin;
   mix-blend-mode: var(--mix-blend-mode);
-  
+
   h1 {
     color: var(--text-color);
     font-weight: 600;
