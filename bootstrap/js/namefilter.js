@@ -1,3 +1,4 @@
+
 // Toggle values
 const rangeSlider = document.getElementById('invert-filter');
 
