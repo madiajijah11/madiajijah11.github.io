@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/crossword.png');
+}
+
+canvas {
+  -webkit-filter: blur(0.6px);
+  -moz-filter: blur(0.6px);
+  -o-filter: blur(0.6px);
+  -ms-filter: blur(0.6px);
+  filter: blur(0.6px);
+}
+
+#Profile {
+  position: absolute;
+  margin: auto;
+  top: 0; right: 0; left: 0; bottom: 0;
+  width: 120px; height: 120px;
+  border-radius: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#Profile img {
+  border-radius: 120px;
+  -webkit-filter: grayscale(0.7);
+  -moz-filter: grayscale(0.7);
+  -ms-filter: grayscale(0.7);
+  filter: grayscale(0.7);
+  opacity: 0.9;
+}
+
+#Profile:before {
+  content: '';
+  position: absolute;
+  top: -6px; left: -6px;
+  width: 130px; height: 130px;
+  border-radius: 162px;
+  border: 1px solid #BCBCBC;
+}
+
+#Profile:after {
+  content: '';
+  position: absolute;
+  top: -11px; left: -11px;
+  width: 140px; height: 140px;
+  border-radius: 172px;
+  border: 1px dashed #81BDA4;
+}
+
+#Profile span {
+  position: absolute;
+  margin: auto;
+  top: 0; right: 0; left: 0; bottom: 0;
+  width: 120px; height: 120px;
+  border-radius: 120px;
+  line-height: 120px;
+  font-family: 'Oswald';
+  font-size: 20px;
+  visibility: hidden;
+}
+
+#Profile:hover img {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  opacity: 0.8;
+}
+
+#Profile:hover span {
+  background: rgba(217, 217, 217, 0.52);
+  visibility: visible;
+  color: #494E52;
+}
