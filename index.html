@@ -1,103 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--header-->
+<html>
+
 <head>
-	<!--bootstrap css-->
-	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-	<!--required meta tags-->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, shrink-to-fit=no user-scalable=yes">
-	<title>Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Dian Rahmadani</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=3322e1a9cf780d5a6d849075baa0c387">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=1585abf9beaf49802b3a80bf813edceb">
 </head>
-<body>
-	<!--navigation bar-->
-	</header>
-	<div class="pos-f-t">
-		<div class="collapse" id="mynavbar1"></div>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand text-white" href="https://www.instagram.com/dian.rhmdni/" target="_blank">Dian Rahmadani</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar2" aria-controls="mynavbar2" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="mynavbar2">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">Gallery</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search">
-				<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		</div>
-	</nav>
-	</div>
-	</header>
-	<main role="main">
-	<!--carousel-->
-	<div id="myslider" class="carousel slide carousel-fade" data-ride="carousel">
-		<div class="container-fluid">
-		<ol class="carousel-indicators">
-			<li data-target="#myslider" data-slide-to="0" class="active"></li>
-			<li data-target="#myslider" data-slide-to="1"></li>
-			<li data-target="#myslider" data-slide-to="2"></li>
-		</ol>.
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="/images/bz4778bae6.png" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="/images/bz7bd94444.png" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="/images/bz222d07c9.png" class="d-block w-100" alt="...">
-			</div>
-		</div>
-		<a class="carousel-control-prev" href="#myslider" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#myslider" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-		</div>
-	</div>
-	<!--jumbrotron-->
-	<hr>
-	<div class="col">
-	<div class="card">
-		<h5 class="card-header">Featured</h5>
-		<div class="card-body">
-		<h5 class="card-title">Belajar Bootstrap</h5>
-		<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-		<a href="#" class="btn btn-primary btn" role="button">Pelajari Lebih Lanjut »</a>
-		</div>
-	</div>
-	</div>
-	<hr> 
-	</main>
-	<!--Optional Javascript-->
-	<!--JQuery first, then Popper.js, then Bootstrap JS-->
-	<script src="/bootstrap/js/jquery.min.js"crossorigin="anonymous"></script>
-	<script src="/bootstrap/js/popper.min.js"crossorigin="anonymous"></script>
-	<script src="/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Dian Rahmadani</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/circle-cropped.png?h=c8785220ad9c2dc55945ffd6df42e822" width="450">
+            <h1>Dian Rahmadani</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">IT Support - Network Enginner - System Administrator</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/bz11.576c9a9.png?h=77209c08e22a8aba6d725af96374abd4"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/bz10.73e039a.png?h=c7d59f4c5648a77d3e6357bf3735b3ca"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/bz9.64cd562.png?h=3649add56fb313165d694bef18541e87"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/bz8.aaca0a8.png?h=ca81eff18844b76741df8ea3e90f720f"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/bz6.bbfa7cf%20(1).png?h=84535cd8d971e8d503622bbee2d8da63"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-6">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/bz7.bd94444.png?h=0ae2b8ca6b4b73beddc861c2dfcbc479"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">About ME</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead text-center">Islam, Disipli, Hati Mulia</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead text-center">UNISKA BANJARMASIN<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p>Banjarmasin, South Kalimantan, Indonesia</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Around the Web</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.facebook.com/nyanyaw.meong"><i class="fa fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.instagram.com/dian.rhmdni"><i class="fa fa-instagram fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://www.twitter.com/Rappwalk"><i class="fa fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">ABOUT THIS</h4>
+                    <p class="lead mb-0"><span>Im just learning to make a front end website.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright ©&nbsp;Dian Rahmadani 2018</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/cabin.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/cake.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/circus.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/game.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/safe.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="portfolio/submarine.png">
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                    itaque. Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=63715b63ee49d5fe4844c2ecae071373"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/freelancer.js?h=c39cf000ef6adba0f85349e55288c80d"></script>
 </body>
-	<!--footer-->
-	<footer class="text-muted">
-		<div class="container">
-			<p class="float-right">
-				<a href="#">Back to top</a>
-			</p>
-	<p>
-	©Copyright Dian Rahmadani 2018-2019
-</p>
-	</div>
-	</footer>
+
 </html>
