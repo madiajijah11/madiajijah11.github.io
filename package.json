@@ -1,0 +1,24 @@
+{
+  "name": "madiajijah11.github.io",
+  "description": "Just for my personal page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madiajijah11/madiajijah11.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madiajijah11/madiajijah11.github.io/issues"
+  },
+  "homepage": "https://github.com/madiajijah11/madiajijah11.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bulma": "^0.9.2"
+  }
+}
