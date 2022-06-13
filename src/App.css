@@ -1,9 +1,5 @@
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  max-height: max-content;
-  min-width: 100vw;
-  max-width: max-content;
   display: flex;
   flex-direction: column;
   font-size: calc(12px + 2vmin);
@@ -44,4 +40,9 @@
   font-size: smaller;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
+}
+
+.Text-container {
+  align-self: center;
+  width: 80%;
 }
