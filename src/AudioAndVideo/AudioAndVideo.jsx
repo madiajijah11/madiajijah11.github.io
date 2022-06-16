@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../assets/videos/background.webm';
+import Video from '../assets/videos/background.mp4';
 import AudioBackground from '../assets/audio/01-Genshin-Impact-Main-ThemeGens.mp3';
 
 function AudioAndVideo() {
@@ -7,7 +7,7 @@ function AudioAndVideo() {
         <>
             {/* Video Background */}
             <video autoPlay loop playsInline className='Video-background'>
-                <source src={Video} type="video/webm" />
+                <source src={Video} type="video/mp4" />
             </video>
 
             {/* Audio Background */}
