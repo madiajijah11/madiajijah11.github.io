@@ -19,7 +19,7 @@ function Educations() {
                         <tr>
                             <th scope="row">1</th>
                             <td>Islamic University of Muhammad Arsyad Al Banjari Kalimantan</td>
-                            <td>Bachelor of Science in Computer Science</td>
+                            <td>Bachelor's Degree in Informatics Engineering</td>
                             <td>2016</td>
                         </tr>
                         <tr>
