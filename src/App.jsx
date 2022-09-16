@@ -1,18 +1,20 @@
-import './App.css';
-import Skills from './Skills/Skills';
-import Educations from './Educations/Educations';
-import SocialsMedia from './SocialsMedia/SocialsMedia';
-import MyBio from './MyBio/MyBio';
-import AudioAndVideo from './AudioAndVideo/AudioAndVideo';
-import Footer from './Footer/Footer';
+import "./App.css";
+import Skills from "./components/Skills/Skills";
+import Educations from "./components/Educations/Educations";
+import SocialsMedia from "./components/SocialsMedia/SocialsMedia";
+import MyBio from "./components/MyBio/MyBio";
+import Footer from "./components/Footer/Footer";
+import AudioBackground from "./components/Audio/Audio";
+import VideoDisplay from "./components/Video/Video";
 
 function App() {
-
   return (
-    <div className='App-header'>
+    <div className="App-header">
+      {/* Audio */}
+      <AudioBackground />
 
-      {/* Audio Background and Video */}
-      <AudioAndVideo />
+      {/* Video */}
+      <VideoDisplay />
       <hr />
 
       {/* My Bio */}
@@ -33,18 +35,15 @@ function App() {
 
       {/* Experience */}
 
-
       {/* Projects */}
 
-
       {/* Contact */}
-
 
       {/* Footer */}
       <hr />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
